@@ -46,6 +46,7 @@ module.exports = {
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
+        //运行hcs-android的app的设备的地址
         target: `http://192.168.50.103:8080`,
         changeOrigin: true,
         pathRewrite: {
