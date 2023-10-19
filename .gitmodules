@@ -1,0 +1,9 @@
+[submodule "hcs-web-module-base"]
+	path = hcs-web-module-base
+	url = https://github.com/netwolf712/hcs-web-module-base.git
+[submodule "hcs-web-module-maintain"]
+	path = hcs-web-module-maintain
+	url = https://github.com/netwolf712/hcs-web-module-maintain.git
+[submodule "hcs-web-module-master"]
+	path = hcs-web-module-master
+	url = https://github.com/netwolf712/hcs-web-module-master.git
