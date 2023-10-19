@@ -49,6 +49,8 @@ npm run build:stage
 
 # 构建生产环境
 npm run build:prod
+# 会将编译内容生成到hcs-web-nurse-master/dist目录下，将dist目录下的app拷贝的android项目下即可
+# 其实就是将./dist/app/src/main/assets/下的内容拷贝的android项目的asset目录下。
 ```
 
 _请与 nurse-station-master 保持在平级的目录，这样编译时可以自动将静态文件放入 app 的 assets 目录下，具体可查看 vue.config.js 下的 outputDir 配置。也可根据实际情况自行调整编译输出目录_
